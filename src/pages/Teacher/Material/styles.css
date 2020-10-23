@@ -1,0 +1,27 @@
+label#material {
+  margin-bottom: 20px;
+  border: 1px dashed #ddd;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  height: 150px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+label#material input {
+  display: none;
+}
+
+label#material.has-material {
+  background-image: url('../../../assets/image/ok.svg') !important;
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #ddd;
+}
+
+label#material.has-material img {
+  display: none;
+}
